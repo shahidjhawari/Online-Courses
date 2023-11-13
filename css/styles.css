@@ -11,6 +11,9 @@
     nav, div, img {
         padding: 5px 0px 5px 0;
     } 
+    .inner-css {
+        margin-top: -14px;
+    }
 }
 @media screen and (max-width: 992px){
     .container-css {
@@ -18,6 +21,9 @@
     }
     nav, div, img {
         padding: 5px 0 5px 0;
+    }
+    .inner-css {
+        margin-top: -14px;
     } 
 }
 @media screen and (min-width: 992px){
@@ -39,4 +45,11 @@
 .btn-css {
     padding-right: 40px;
     padding-left: 40px;
+}
+
+/* Banner Section CSS */
+@media screen and (min-width: 992px) and (max-width: 2100px){
+    .inner-css {
+        margin-left: 21px;
+    }
 }
