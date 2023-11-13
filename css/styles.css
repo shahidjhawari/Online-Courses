@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* header css here */
 .container-css {
     border-radius: 8px;
@@ -25,6 +29,9 @@
     .inner-css {
         margin-top: -14px;
     } 
+    .about_section {
+        margin-top: -14px;
+    }
 }
 @media screen and (min-width: 992px){
     nav, div, a, img {
@@ -52,5 +59,114 @@
     .inner-css {
         margin-left: 40px;
     }
+    .about_section {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 
 }
+
+/* HTML SECTION START */
+.about_section {
+    background-color: #0652DD;
+    color: #ffffff;
+  }
+  
+  .about_section .heading_container {
+    margin-bottom: 45px;
+  }
+  
+  .about_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .about_section .img-box img {
+    max-width: 100%;
+  }
+  
+  .about_section .detail-box h3 {
+    font-weight: bold;
+  }
+  
+  .about_section .detail-box p {
+    margin-top: 15px;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f04000;
+    color: #ffffff;
+    border-radius: 0px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  
+  .about_section .detail-box a:hover {
+    background-color: #007fa4;
+  }
+
+  .heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .heading_container h2 {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: -60px;
+  }
+  
+  .heading_container h2 span {
+    color: #00bbf0;
+  }
+  
+  .heading_container p {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .heading_container.heading_center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .layout_padding {
+    padding: 90px 0;
+  }
+  
+  .layout_padding2 {
+    padding: 75px 0;
+  }
+  
+  .layout_padding2-top {
+    padding-top: 30px;
+  }
+  
+  .layout_padding2-bottom {
+    padding-bottom: 75px;
+  }
+  
+  .layout_padding-top {
+    padding-top: 90px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 90px;
+  }
