@@ -7,6 +7,12 @@ body {
     border-radius: 8px;
     height: 80px;
 }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 1px 1px 20px 1px black;
+}
 @media screen and (max-width: 574px){
     .container-css {
         border-radius: 0px;
@@ -68,8 +74,35 @@ body {
 
 /* HTML SECTION START */
 .about_section {
-    background-color: #0652DD;
+    background-image: url("../img/htmlbg.jpg");
+    background-size: cover;
+    background-position: bottom;
     color: #ffffff;
+    box-shadow: -1px -1px 3px 1px black, 1px 1px 3px 1px black;
+  }
+  .about-css {
+    background-image: url("../img/cssbg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 10px;
+  }
+  .about-javascript {
+    background-image: url("../img/jsbg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 10px;
+  }
+  .about-php {
+    background-image: url("../img/phpbg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 10px;
+  }
+  .about-sql {
+    background-image: url("../img/mysqlbg.jpg");
+    background-size: cover;
+    background-position: right;
+    margin-top: 10px;
   }
   
   .about_section .heading_container {
@@ -94,10 +127,10 @@ body {
     margin-top: 15px;
   }
   
-  .about_section .detail-box a {
+  .heading_container a {
     display: inline-block;
     padding: 10px 45px;
-    background-color: #f04000;
+    background-color: #f24106;
     color: #ffffff;
     border-radius: 0px;
     -webkit-transition: all 0.3s;
@@ -105,6 +138,8 @@ body {
     border: none;
     margin-top: 15px;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
   }
   
   .about_section .detail-box a:hover {
@@ -148,25 +183,6 @@ body {
   }
 
   .layout_padding {
-    padding: 90px 0;
+    padding: 90px 0 10px 0;
   }
-  
-  .layout_padding2 {
-    padding: 75px 0;
-  }
-  
-  .layout_padding2-top {
-    padding-top: 30px;
-  }
-  
-  .layout_padding2-bottom {
-    padding-bottom: 75px;
-  }
-  
-  .layout_padding-top {
-    padding-top: 90px;
-  }
-  
-  .layout_padding-bottom {
-    padding-bottom: 90px;
-  }
+  /* HTML SECTION  END */
