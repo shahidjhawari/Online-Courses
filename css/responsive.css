@@ -1,0 +1,79 @@
+/* Header Section CSS */
+@media screen and (max-width: 574px){
+    .container-css {
+        border-radius: 0px;
+        height: auto;
+    }
+    nav, div, img {
+        padding: 5px 0px 5px 0;
+    } 
+    .inner-css {
+        margin-top: -14px;
+    }
+}
+@media screen and (max-width: 992px){
+    .container-css {
+        height: auto;
+    }
+    nav, div, img {
+        padding: 5px 0 5px 0;
+    }
+    .inner-css {
+        margin-top: -14px;
+    } 
+    .about_section {
+        margin-top: -14px;
+    }
+    
+}
+@media screen and (min-width: 992px){
+    nav, div, a, img {
+        padding: 2px 0 2px 0;
+        padding-right: 10px;
+    } 
+}
+
+/* Banner Section CSS */
+@media screen and (min-width: 992px) and (max-width: 2100px){
+    .inner-css {
+        margin-left: 40px;
+    }
+    .about_section {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
+
+/* Course Heading & Search bar Section CSS */
+@media screen and (max-width: 574px){
+    .titlepage {
+      padding-bottom: 0px;
+    }
+    .titlepage h2 {
+      margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .titlepage {
+      padding-bottom: 0px;
+    }
+    .titlepage h2 {
+      margin-top: -20px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px){
+    .searchbar {
+      width: 80%;
+      height: 40px;
+      margin-top: -10px;
+    }
+    .search_input {
+      font-size: 14px;
+    }
+    .titlepage {
+      margin-top: -35px;
+    }
+  }
