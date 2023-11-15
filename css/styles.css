@@ -254,6 +254,19 @@ header {
   display: flex;
   box-shadow: 1px 1px 30px rgb(103, 100, 100);
 }
+@media screen and (min-width: 200px) and (max-width: 700px){
+  .searchbar {
+    width: 80%;
+    height: 40px;
+    margin-top: -10px;
+  }
+  .search_input {
+    font-size: 14px;
+  }
+  .titlepage {
+    margin-top: -35px;
+  }
+}
 .search_input {
   color: #010101;
   border: 0;
