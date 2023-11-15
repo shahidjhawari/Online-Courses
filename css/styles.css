@@ -250,8 +250,7 @@ header {
   border-radius: 50px;
   padding: 10px 30px;
   display: flex;
-  box-shadow: 1px 1px 59px rgba(30, 30, 29, 0.09);
-  border: 1px solid black;
+  box-shadow: 1px 1px 30px rgb(103, 100, 100);
 }
 .search_input {
   color: #010101;
