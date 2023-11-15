@@ -188,18 +188,17 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  background-color: #fcfcfd;
+  background-color: #e8e8ed;
   border-radius: 50px;
   padding: 10px 30px;
   display: flex;
-  box-shadow: 1px 1px 30px rgb(103, 100, 100);
 }
 
 .search_input {
   color: #010101;
   border: 0;
   outline: 0;
-  background: #fcfcfd;
+  background: #e8e8ed;
   width: 100%;
   line-height: 40px;
   font-size: 17px;

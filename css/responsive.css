@@ -47,9 +47,6 @@
 
 /* Course Heading & Search bar Section CSS */
 @media screen and (max-width: 574px){
-    .titlepage {
-      padding-bottom: 0px;
-    }
     .titlepage h2 {
       margin-top: -20px;
     }
@@ -75,5 +72,9 @@
     }
     .titlepage {
       margin-top: -35px;
+      margin-bottom: 0px;
+    }
+    .about_section {
+        margin-top: 10px;
     }
   }
