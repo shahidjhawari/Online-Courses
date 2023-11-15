@@ -1,6 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* header css here */
 .container-css {
@@ -38,6 +41,7 @@ header {
     .about_section {
         margin-top: -14px;
     }
+    
 }
 @media screen and (min-width: 992px){
     nav, div, a, img {
@@ -199,3 +203,74 @@ header {
   width: 0;
   z-index: 2;
 }
+
+/* Course Headings Section Start */
+.titlepage {
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 574px){
+  .titlepage {
+    padding-bottom: 0px;
+  }
+  .titlepage h2 {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 992px){
+  .titlepage {
+    padding-bottom: 0px;
+  }
+  .titlepage h2 {
+    margin-top: -20px;
+  }
+}
+.titlepage h2 {
+  font-size: 30px;
+  color: #000000;
+  line-height: 40px;
+  font-weight: bold;
+  padding: 0;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.blue_light {
+  color: #f4a700;
+}
+.domain {
+  background: #ffffff;
+  padding-top: 30px;
+}
+.searchbar {
+  height: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: #fcfcfd;
+  border-radius: 50px;
+  padding: 10px 30px;
+  display: flex;
+  box-shadow: 1px 1px 59px rgba(30, 30, 29, 0.09);
+  border: 1px solid black;
+}
+.search_input {
+  color: #010101;
+  border: 0;
+  outline: 0;
+  background: #fcfcfd;
+  width: 100%;
+  line-height: 40px;
+  font-size: 17px;
+}
+.search_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffaa00;
+  font-size: 20px;
+  text-decoration: none;
+}
+.text_align_center {
+  text-align: center;
+}
+/* Course Headings Section End */
