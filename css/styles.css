@@ -215,3 +215,8 @@ header {
   text-align: center;
 }
 /* Course Headings Section End */
+
+/* HTML all tags css here */
+.html-tag {
+  color: red;
+}
