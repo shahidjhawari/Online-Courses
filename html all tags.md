@@ -17,7 +17,7 @@
 <caption>	Defines a table caption
 <cite>	Defines the title of a work
 <code>	Defines a piece of computer code
-<col>	Specifies column properties for each column within a <colgroup> element 
+<col>	Specifies column properties for each column within a colgroup element 
 <colgroup>	Specifies a group of one or more columns in a table for formatting
 <data>	Adds a machine-readable translation of a given content
 <datalist>	Specifies a list of pre-defined options for input controls
@@ -32,7 +32,7 @@
 <em>	Defines emphasized text 
 <embed>	Defines a container for an external application
 <fieldset>	Groups related elements in a form
-<figcaption>	Defines a caption for a <figure> element
+<figcaption>	Defines a caption for a figure element
 <figure>	Specifies self-contained content
 <footer>	Defines a footer for a document or section
 <form>	Defines an HTML form for user input
@@ -48,8 +48,8 @@
 <input>	Defines an input control
 <ins>	Defines a text that has been inserted into a document
 <kbd>	Defines keyboard input
-<label>	Defines a label for an <input> element
-<legend>	Defines a caption for a <fieldset> element
+<label>	Defines a label for an input element
+<legend>	Defines a caption for a fieldset element
 <li>	Defines a list item
 <link>	Defines the relationship between a document and an external resource (most used to link to style sheets)
 <main>	Specifies the main content of a document
@@ -81,12 +81,12 @@
 <section>	Defines a section in a document
 <select>	Defines a drop-down list
 <small>	Defines smaller text
-<source>	Defines multiple media resources for media elements (<video> and <audio>)
+<source>	Defines multiple media resources for media elements (video and audio)
 <span>	Defines a section in a document
 <strong>	Defines important text
 <style>	Defines style information for a document
 <sub>	Defines subscripted text
-<summary>	Defines a visible heading for a <details> element
+<summary>	Defines a visible heading for a details element
 <sup>	Defines superscripted text
 <svg>	Defines a container for SVG graphics
 <table>	Defines a table
@@ -100,7 +100,7 @@
 <time>	Defines a specific time (or datetime)
 <title>	Defines a title for the document
 <tr>	Defines a row in a table
-<track>	Defines text tracks for media elements (<video> and <audio>)
+<track>	Defines text tracks for media elements (video and audio)
 <u>	Defines some text that is unarticulated and styled differently from normal text
 <ul>	Defines an unordered list
 <var>	Defines a variable
