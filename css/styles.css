@@ -220,6 +220,9 @@ header {
 .html-tag {
   color: red;
 }
+.html-attr {
+  color: yellow;
+}
 .tag-body {
   color: white;
 }
@@ -227,3 +230,5 @@ header {
   margin-left: 50px;
   margin-bottom: 30px;
 }
+
+/* HTML tags Detail Page css here */
