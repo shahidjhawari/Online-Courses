@@ -66,7 +66,7 @@
         <h2>HTML5</h2>
         <p>Let's understand the fundamental and basic concept of HTML</p>
         <p>We will teach you the basic and essentials of HTML in this course Click the button below to learn.</p>
-        <a href="html_crc.html">LEARN HTML</a>
+        <a href="html_crc.php">LEARN HTML</a>
       </div>
     </div>
   </section>
