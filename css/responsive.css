@@ -48,7 +48,7 @@
 /* Course Heading & Search bar Section CSS */
 @media screen and (max-width: 574px){
     .titlepage h2 {
-      margin-top: -20px;
+      margin-top: -30px;
     }
     .inner-tag-detail-css {
         margin-top: -40px;
@@ -79,5 +79,13 @@
     }
     .about_section {
         margin-top: 10px;
+    }
+    .download-btn {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .tag-heading {
+        margin-top: 25px;
+        margin-bottom: -20px;
     }
   }

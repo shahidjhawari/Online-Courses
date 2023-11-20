@@ -236,4 +236,10 @@ header {
   margin-top: 15px;
   margin-bottom: -30px;
 }
-
+.download-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inner-css, img {
+  border-radius: 10px;
+}
