@@ -232,3 +232,8 @@ header {
 }
 
 /* HTML tags Detail Page css here */
+.tag-heading {
+  margin-top: 15px;
+  margin-bottom: -30px;
+}
+
