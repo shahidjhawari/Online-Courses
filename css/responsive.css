@@ -50,6 +50,9 @@
     .titlepage h2 {
       margin-top: -20px;
     }
+    .inner-tag-detail-css {
+        margin-top: -40px;
+    }
 }
 
 @media screen and (max-width: 992px){
