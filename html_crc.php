@@ -1,7 +1,7 @@
-<?php include("top.php") ?>
+<?php require("top.php") ?>
 <!--HTML All Tags Section Start-->
 <div class="container">
-    <div class="list-group">
+    <div class="list-group all-html-tags">
     <code>
         <a href="html/a.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">a</span><span>></span> Defines a hyperlink</a>
         <a href="html/abbr.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">abbr</span><span>></span> Defines an abbreviation or an acronym</a>
@@ -115,5 +115,5 @@
     </div>
 </div>
 <!--HTML All Tags Section End-->
-<?php include("footer.php") ?>
+<?php require("footer.php") ?>
 

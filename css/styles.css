@@ -230,6 +230,9 @@ header {
   margin-left: 50px;
   margin-bottom: 30px;
 }
+.all-html-tags code a:hover {
+  z-index: 0;
+}
 
 /* HTML tags Detail Page css here */
 .tag-heading {
