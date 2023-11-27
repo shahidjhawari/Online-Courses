@@ -61,6 +61,9 @@ if (isset($_POST['submit'])) {
     #openaibackspan {
         color: greenyellow;
     }
+    .btn-group {
+        align-items: center;
+    }
 </style>
 
 <!-- Search Input & Button Section Start -->
@@ -83,7 +86,7 @@ if (isset($_POST['submit'])) {
 <!-- Search Input & Button Section End -->
 
 <div class="container">
-    <fieldset>
+    <fieldset id="content">
         <?php
         if (!isset($data)) {
             echo "Your content goes here...";
@@ -92,7 +95,14 @@ if (isset($_POST['submit'])) {
         }
         ?>
     </fieldset>
+    <div class="btn-group">
+    <button class="btn btn-outline-secondary" id="clone"><i class="fas fa-clone" title="Copy All Text"></i></button>
+    <button class="btn btn-outline-secondary" id="remove"><i class="fas fa-times" title="Remove Text"></i></button>
+    </div>
+    
 </div>
+
+
 
 <script>
     var target = document.querySelector("#openaispan");
@@ -108,6 +118,13 @@ if (isset($_POST['submit'])) {
         target.innerHTML = "";
         target2.removeAttribute("disabled");
         target3.removeAttribute('disabled');
+    });
+
+    var btn = document.querySelector("#clone");
+    btn.addEventListener("click", function(){
+        var cont = document.querySelector("#content p");
+        cont.select();
+        document.execCommand("copy");
     });
 </script>
 
