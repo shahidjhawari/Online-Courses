@@ -1,4 +1,39 @@
 <?php require("top.php"); ?>
+<?php
+$ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, 'https://api.openai.com/v1/chat/completions');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_POST, 1);
+$postdata=array("model" => "gpt-3.5-turbo",
+"messages" => [
+    [
+        "role" => "user",
+        "content" => "www stand for"
+    ]
+],
+"temperature" => 1,
+"max_tokens" => 256,
+"top_p" => 1,
+"frequency_penalty" => 0,
+"presence_penalty" => 0);
+$postdata=json_encode($postdata);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
+
+$headers = array();
+$headers[] = 'Content-Type: application/json';
+$headers[] = 'Authorization: Bearer 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';
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+$result = curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+}
+curl_close($ch);
+$result=json_decode($result,true);
+echo '<pre>';
+print_r($result);
+?>
 <style>
     fieldset {
         border: 2px solid black;
