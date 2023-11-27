@@ -56,12 +56,14 @@ if (isset($_POST['submit'])) {
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
+            <form method="post">
             <div class="input-group">
-                <form action="" method="post">
-                    <input type="text" class="form-control" name="str" placeholder="Search anything..." required>
-                    <button class="btn btn-outline-secondary" type="submit" name="submit"><i class="fas fa-search"></i></button>
-                </form>
+                <input type="text" class="form-control" placeholder="Search any thing..." name="str">
+                <button class="btn btn-outline-secondary" type="submit" name="submit">
+                    <i class="fas fa-search"></i>
+                </button>
             </div>
+            </form>
         </div>
     </div>
 </div>
