@@ -250,3 +250,17 @@ header {
 .openai-form {
   margin-top: 50px;
 }
+
+.fieldset {
+  width: 200px; /* Set an initial width */
+  height: 200px; /* Set an initial height */
+  resize: both; /* Allow resizing both horizontally and vertically */
+  overflow: auto; /* Add scrollbars if the content overflows */
+  color: #f24106;
+}
+
+
+
+legend {
+  padding: 5px;
+}
