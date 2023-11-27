@@ -13,7 +13,7 @@ $postdata=array("model" => "gpt-3.5-turbo",
     ]
 ],
 "temperature" => 1,
-"max_tokens" => 256,
+"max_tokens" => 1400,
 "top_p" => 1,
 "frequency_penalty" => 0,
 "presence_penalty" => 0);
@@ -32,7 +32,7 @@ if (curl_errno($ch)) {
 curl_close($ch);
 $result=json_decode($result,true);
 echo '<pre>';
-print_r($result);
+print_r($result['choices'][0]['message']['content']);
 ?>
 <style>
     fieldset {
