@@ -98,7 +98,6 @@ if (isset($_POST['submit'])) {
     var target = document.querySelector("#openaispan");
     var target2 = document.querySelector("#openaibtn");
     var target3 = document.querySelector("#openaiinput");
-    var target4 = document.querySelector("openaibackspan");
 
     window.addEventListener("offline", function(){
         target.innerHTML = "You are Offline";
