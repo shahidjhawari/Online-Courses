@@ -106,8 +106,7 @@ if (isset($_POST['submit'])) {
         target3.setAttribute('disabled','');
     });
     window.addEventListener("online", function(){
-        target.innerHTML = "Back to online!";
-        target.style.color = "green";
+        target.innerHTML = "";
         target2.removeAttribute("disabled");
         target3.removeAttribute('disabled');
     });
