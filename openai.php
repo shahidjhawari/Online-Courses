@@ -55,6 +55,9 @@ if (isset($_POST['submit'])) {
         color: orangered;
         text-align: center;
     }
+    #openaibackspan {
+        color: greenyellow;
+    }
 </style>
 
 <!-- Search Input & Button Section Start -->
@@ -63,13 +66,14 @@ if (isset($_POST['submit'])) {
         <div class="col-md-6">
             <form method="post">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openai">
+                <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openaiinput">
                 <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
                     <i class="fas fa-search"></i>
                 </button>
             </div>
             </form>
-            <span id="openaiSpan"></span>
+            <span id="openaispan"></span>
+            <span id="openaibackspan"></span>
         </div>
     </div>
 </div>
@@ -88,17 +92,20 @@ if (isset($_POST['submit'])) {
 </div>
 
 <script>
-    var target = document.querySelector("#openaiSpan");
-    var target2 = document.querySelector("#openai");
-    var target3 = document.querySelector("#openaibtn");
+    var target = document.querySelector("#openaispan");
+    var target2 = document.querySelector("#openaibtn");
+    var target3 = document.querySelector("#openaiinput");
+    var target4 = document.querySelector("openaibackspan");
+
     window.addEventListener("offline", function(){
-        target.innerHTML = "You are offline";
+        target.innerHTML = "You are Offline";
         target2.setAttribute('disabled','');
         target3.setAttribute('disabled','');
     });
     window.addEventListener("online", function(){
-        target.innerHTML = "";
-        target2.removeAttribute('disabled');
+        target.innerHTML = "You are back!";
+        target.style.color = "green";
+        target2.removeAttribute("disabled");
         target3.removeAttribute('disabled');
     });
 </script>
