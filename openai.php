@@ -1,7 +1,8 @@
 <?php require("top.php"); ?>
 <?php
+if(isset($_POST['str'])){
 $ch = curl_init();
-
+$str = $_POST['str'];
 curl_setopt($ch, CURLOPT_URL, 'https://api.openai.com/v1/chat/completions');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
@@ -9,7 +10,7 @@ $postdata=array("model" => "gpt-3.5-turbo",
 "messages" => [
     [
         "role" => "user",
-        "content" => "www stand for"
+        "content" => "$str"
     ]
 ],
 "temperature" => 1,
@@ -31,8 +32,8 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 $result=json_decode($result,true);
-echo '<pre>';
-print_r($result['choices'][0]['message']['content']);
+$data = $result['choices'][0]['message']['content'];
+}
 ?>
 <style>
     fieldset {
@@ -46,9 +47,9 @@ print_r($result['choices'][0]['message']['content']);
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="input-group">
-                <form action="">   
-                    <input type="text" class="form-control" placeholder="Search any thing...">
-                    <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+                <form action="" method="post">   
+                    <input type="text" class="form-control" name="str"  placeholder="Search any thing..." required>
+                    <button class="btn btn-outline-secondary" type="submit" name="submit"><i class="fas fa-search"></i></button>
                 </form>
             </div>
         </div>
@@ -57,8 +58,8 @@ print_r($result['choices'][0]['message']['content']);
 <!-- Search Input & Button Section End -->
 
 <div class="container">
-<fieldset>
-        <p></p>  
+    <fieldset>
+        <p><?php echo $data; ?></p>  
     </fieldset>
 </div>
 
