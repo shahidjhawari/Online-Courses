@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
                 <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
                     <i class="fas fa-search"></i>
                 </button>
-            </div>
+                </div>
             </form>
             <span id="openaispan"></span>
             <span id="openaibackspan"></span>
