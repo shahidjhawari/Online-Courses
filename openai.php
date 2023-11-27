@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
 <!-- Search Input & Button Section End -->
 
 <div class="container">
-<fieldset>
+    <fieldset>
         <?php
         if (!isset($data)) {
             echo "No data";
