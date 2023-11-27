@@ -245,3 +245,8 @@ header {
 .inner-css, img {
   border-radius: 10px;
 }
+
+/* Open Ai Section */
+.openai-form {
+  margin-top: 50px;
+}
