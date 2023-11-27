@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
             ]
         ],
         "temperature" => 1,
-        "max_tokens" => 1400,
+        "max_tokens" => 2000,
         "top_p" => 1,
         "frequency_penalty" => 0,
         "presence_penalty" => 0
@@ -50,6 +50,9 @@ if (isset($_POST['submit'])) {
         border-radius: 5px;
         padding: 20px;
         margin-bottom: 20px;
+        background-color: #2d3436;
+        color: white;
+        font-size: 20px;
     }
     span {
         color: orangered;
@@ -103,7 +106,7 @@ if (isset($_POST['submit'])) {
         target3.setAttribute('disabled','');
     });
     window.addEventListener("online", function(){
-        target.innerHTML = "You are back!";
+        target.innerHTML = "Back to online!";
         target.style.color = "green";
         target2.removeAttribute("disabled");
         target3.removeAttribute('disabled');
