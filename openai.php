@@ -50,6 +50,9 @@ if (isset($_POST['submit'])) {
         border-radius: 5px;
         padding: 20px;
     }
+    span {
+        color: orangered;
+    }
 </style>
 
 <!-- Search Input & Button Section Start -->
@@ -58,12 +61,13 @@ if (isset($_POST['submit'])) {
         <div class="col-md-6">
             <form method="post">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search any thing..." name="str">
-                <button class="btn btn-outline-secondary" type="submit" name="submit">
+                <input type="text" class="form-control" placeholder="Prompt..." name="str" id="openai">
+                <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
                     <i class="fas fa-search"></i>
                 </button>
             </div>
             </form>
+            <span id="openaiSpan"></span>
         </div>
     </div>
 </div>
@@ -73,13 +77,29 @@ if (isset($_POST['submit'])) {
     <fieldset>
         <?php
         if (!isset($data)) {
-            echo "No data";
+            echo "Your data goes here";
         } else {
             echo "<p>$data</p>";
         }
         ?>
     </fieldset>
 </div>
+
+<script>
+    var target = document.querySelector("#openaiSpan");
+    var target2 = document.querySelector("#openai");
+    var target3 = document.querySelector("#openaibtn");
+    window.addEventListener("offline", function(){
+        target.innerHTML = "You are offline";
+        target2.setAttribute('disabled','');
+        target3.setAttribute('disabled','');
+    });
+    window.addEventListener("online", function(){
+        target.innerHTML = "";
+        target2.removeAttribute('disabled');
+        target3.removeAttribute('disabled');
+    });
+</script>
 
 <?php require("footer.php"); ?>
 
