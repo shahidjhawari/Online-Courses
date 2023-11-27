@@ -49,9 +49,11 @@ if (isset($_POST['submit'])) {
         border: 2px solid black;
         border-radius: 5px;
         padding: 20px;
+        margin-bottom: 20px;
     }
     span {
         color: orangered;
+        text-align: center;
     }
 </style>
 
@@ -61,7 +63,7 @@ if (isset($_POST['submit'])) {
         <div class="col-md-6">
             <form method="post">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Prompt..." name="str" id="openai">
+                <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openai">
                 <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
                     <i class="fas fa-search"></i>
                 </button>
@@ -77,7 +79,7 @@ if (isset($_POST['submit'])) {
     <fieldset>
         <?php
         if (!isset($data)) {
-            echo "Your data goes here";
+            echo "Your content goes here...";
         } else {
             echo "<p>$data</p>";
         }
