@@ -66,8 +66,8 @@ if (isset($_POST['submit'])) {
         <div class="col-md-6">
             <form method="post">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openaiinput">
-                <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
+                    <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openaiinput">
+                    <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
                     <i class="fas fa-search"></i>
                 </button>
                 </div>
