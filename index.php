@@ -36,9 +36,6 @@
 <div class="container-fluid py-1">
   <div class="container py-1">
       <div class="row align-items-center">
-          <div class="col-lg-3">
-              <img class="img-fluid rounded mb-4 mb-lg-0" src="img/why.jpg" alt="">
-          </div>
           <div class="col-lg-9">
               <div class="text-left mb-4">
                   <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 1px;">WHY WE ARE</h5>
