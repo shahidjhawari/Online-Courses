@@ -6,7 +6,7 @@
             <img src="img/banner1.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <a href=""><img src="img/banner1.png" class="d-block w-100" alt="..."></a>
+            <a href="openai.php"><img src="img/ai-banner2.png" class="d-block w-100" alt="..."></a>
           </div>
           <div class="carousel-item">
             <img src="img/banner1.png" class="d-block w-100" alt="...">
