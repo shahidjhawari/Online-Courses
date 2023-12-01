@@ -124,11 +124,30 @@
   </section>
   <!--MYSQL Section End-->
 
-  <!-- all course add heading start -->
+<!-- all course add heading start -->
 <div class="domain">
   <div class="titlepage text_align_center">
     <h2>USE AI <span class="blue_light">HERE</span></h2>
   </div>
 </div>
 <!-- all course add heading start -->
+
+<!-- Why We are start -->
+<div class="container-fluid py-1">
+  <div class="container py-1">
+      <div class="row align-items-center">
+          <div class="col-lg-9">
+              <div class="text-left mb-4">
+                  <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 1px;">USE AI</h5>
+                  <h1>TO GENERATE TEXT & CODE</h1>
+              </div>
+              <p>Jhawarian's number one academy teaching you website designing and website development as well as android app development, this academy is very famous for its quality and best quality of education, you can check our services, Thanks!</p> 
+              <a href="#" class="btn btn-primary">CHECK</a>     
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Why We are end -->
+
+
 <?php require("footer.php") ?>
