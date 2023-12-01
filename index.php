@@ -54,7 +54,7 @@
 <!-- all course add heading start -->
 <div class="domain">
   <div class="titlepage text_align_center">
-    <h2>ALL COURSES <span class="blue_light">HERE</span></h2>
+    <h2>WEB DEVELOPMENT <span class="blue_light">HERE</span></h2>
   </div>
 </div>
 <!-- all course add heading start -->
@@ -123,4 +123,12 @@
     </div>
   </section>
   <!--MYSQL Section End-->
+
+  <!-- all course add heading start -->
+<div class="domain">
+  <div class="titlepage text_align_center">
+    <h2>USE AI <span class="blue_light">HERE</span></h2>
+  </div>
+</div>
+<!-- all course add heading start -->
 <?php require("footer.php") ?>
