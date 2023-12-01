@@ -126,7 +126,7 @@
 
 <!-- all course add heading start -->
 <div class="domain">
-  <div class="titlepage text_align_center">
+  <div class="text_align_center ai-heading">
     <h2>USE AI <span class="blue_light">HERE</span></h2>
   </div>
 </div>
@@ -139,10 +139,10 @@
           <div class="col-lg-9">
               <div class="text-left mb-4">
                   <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 1px;">USE AI</h5>
-                  <h1>TO GENERATE TEXT & CODE</h1>
+                  <h1 class="myh2h2">TO GENERATE TEXT & CODE</h1>
+                  <span>Use AI to generate text & code for your projects with 90% accuracy, let`s start!</span>
               </div>
-              <p>Jhawarian's number one academy teaching you website designing and website development as well as android app development, this academy is very famous for its quality and best quality of education, you can check our services, Thanks!</p> 
-              <a href="#" class="btn btn-primary">CHECK</a>     
+              <a href="openai.php" class="btn btn-primary">CHECK</a>     
           </div>
       </div>
   </div>
