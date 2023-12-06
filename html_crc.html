@@ -202,11 +202,12 @@
 
             tags.forEach(function (tag) {
                 var tagText = tag.textContent.toLowerCase();
-                if (tagText.includes(filter)) {
+                var isExactMatch = tagText.trim() === filter.trim();
+
+                if (isExactMatch) {
                     tag.style.display = 'block';
                 } else {
                     tag.style.display = 'none';
-                    $(".searchNoData").removeAttr("style");
                 }
             });
         });
