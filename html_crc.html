@@ -53,7 +53,10 @@
 
 <!--HTML All Tags Section Start-->
 <div class="container">
-    <input type="text" id="searchInput" placeholder="Search HTML tags...">
+    <form id="tagSearchForm">
+        <input type="text" id="tagSearch" placeholder="Search tags...">
+        <button type="submit">Search</button>
+    </form>
         <div class="list-group all-html-tags">
     <code>
         <a href="html/a.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">a</span><span>></span> Defines a hyperlink</a>
@@ -180,7 +183,25 @@
     <!--Java Script Files Here Start-->
     <script src="js/script.js"></script>
     <script>
-        
+        document.addEventListener('DOMContentLoaded', function () {
+        var formElement = document.getElementById('tagSearchForm');
+        formElement.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevents the form from submitting and refreshing the page
+
+            var inputElement = document.getElementById('tagSearch');
+            var filter = inputElement.value.toLowerCase();
+            var tags = document.querySelectorAll('.list-group-item');
+
+            tags.forEach(function (tag) {
+                var tagText = tag.textContent.toLowerCase();
+                if (tagText.includes(filter)) {
+                    tag.style.display = 'block';
+                } else {
+                    tag.style.display = 'none';
+                }
+            });
+        });
+    });
     </script>
 </body>
 </html>
