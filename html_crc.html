@@ -185,7 +185,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
         var formElement = document.getElementById('tagSearchForm');
-        formElement.addEventListener('submit', function (event) {
+        formElement.addEventListener('keyup', function (event) {
             event.preventDefault(); // Prevents the form from submitting and refreshing the page
 
             var inputElement = document.getElementById('tagSearch');
