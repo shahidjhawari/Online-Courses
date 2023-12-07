@@ -1,4 +1,64 @@
-<?php require("top.php"); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--All Meta Tags Here-->
+    <meta charset="UTF-8">
+    <meta name="keyword" content="nawab, nawab academy, academy, shahid, shahid iqbal, shahid iqbal jhawari, mahar shahid iqbal jhawari, course, 
+    courses, nawab courses, nawab academy courses, nawab academy course, 
+    shahid iqbal course, nawab html course, nawab css course, 
+    nawab javascript course, nawab html, nawab css, nawab java script, 
+    jhawarian, jhawarian academy, jhawarian courses, jhawarian web development, 
+    web development, web development course, web development nawab, nawab web development, 
+    nawab ethical hacking, nawab app development, app development course, android app development course, 
+    nawab academy app development, jhawarian no 1 academy, sargodha no 1 academy, pakistan no 1 academy, html, 
+    css, java script, php, my sql, python,ethical hacking, html course, css course, java script course, php course, 
+    my sql course, python course, ethical hacking course,">
+    <meta name="discription" content="NAWAB Web Development acdemy in Sargodha, Jhawarian, HTLM, CSS, JS, PHP, MYSQL, PYTHON online & classes courses">
+    <meta name="author" content="MAHAR SHAHID IQBAL JHAWARI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAWAB ACADEMY</title>
+    <!--Bootstrap files Here-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.bundle.js">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <!--Own files Here-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="img/logo_bg_remove.png">
+</head>
+<body>
+    <!--Header Section Start-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container container-css">
+                <a href="index.html"><img src="img/logo_bg_remove.png" alt="NAWAB LOGO" title="NAWAB ACADEMY - Jhawarian, Sargodha, Punjab, Pakistan" width="50px"></a>
+                <a class="navbar-brand" href="index.html" title="NAWAB ACADEMY - Jhawarian, Sargodha, Punjab, Pakistan"><b>NAWAB ACADEMY</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><b>HOME</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>COURSES</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>PROJECTS</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>SIGN UP</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="progress"></div>
+    </header>
+<!--Header Section End-->
 
 <?php
 if (isset($_POST['submit'])) {
@@ -128,4 +188,15 @@ if (isset($_POST['submit'])) {
     });
 </script>
 
-<?php require("footer.php"); ?>
+<!--Footer Section Start-->
+<footer class="bg-warning text-dark text-center py-3">
+      <div class="container">
+          &copy; <b>2023 NAWAB ACADEMY. All rights reserved.</b>
+      </div>
+  </footer>
+  <!--Footer Section End-->
+
+    <!--Java Script Files Here Start-->
+    <script src="js/script.js"></script>
+</body>
+</html>
