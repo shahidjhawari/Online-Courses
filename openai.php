@@ -154,12 +154,7 @@ if (isset($_POST['submit'])) {
             echo "<p>$data</p>";
         }
         ?>
-    </fieldset>
-    <div class="btn-group">
-    <button class="btn btn-outline-secondary" id="clone"><i class="fas fa-clone" title="Copy All Text"></i></button>
-    <button class="btn btn-outline-secondary" id="remove"><i class="fas fa-times" title="Remove Text"></i></button>
-    </div>
-    
+    </fieldset>  
 </div>
 
 
