@@ -53,18 +53,7 @@
 
 <!--HTML All Tags Section Start-->
 <div class="container">
-    <form id="tagSearchForm" class="searchbar">
-        <input type="text"  placeholder="Search tags..." id="tagSearch" class="search_input">
-        <a type="submit" class="search_icon"><i class="fa fa-search" aria-hidden="true"></i></a>
-    </form>
-    <!-- all course add heading start -->
-        <div class="domain searchNoData" style="display: none;">
-            <div class="titlepage text_align_center">
-            <h2>NO TAGS <span class="blue_light">FOUND</span></h2>
-            </div>
-        </div>
-  <!-- all course add heading start -->
-        <div class="list-group all-html-tags">
+    <div class="list-group all-html-tags">
     <code>
         <a href="html/a.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">a</span><span>></span> Defines a hyperlink</a>
         <a href="html/abbr.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">abbr</span><span>></span> Defines an abbreviation or an acronym</a>
@@ -191,29 +180,7 @@
     <script src="js/script.js"></script>
     <script src="js/jquery.js"></script>
     <script>
-        window.onload = function () {
-        var inputElement = document.getElementById('tagSearch');
-        var tags = document.querySelectorAll('.list-group-item');
-
-        inputElement.addEventListener('input', function () {
-            filterTags();
-        });
-
-        function filterTags() {
-            var filter = inputElement.value.toLowerCase().trim();
-
-            tags.forEach(function (tag) {
-                var tagText = tag.textContent.toLowerCase();
-                var isExactMatch = tagText.trim() === filter;
-
-                if (filter === '' || isExactMatch) {
-                    tag.style.display = 'block';
-                } else {
-                    
-                }
-            });
-        }
-    };
+        
     </script>
 </body>
 </html>
