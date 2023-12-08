@@ -3,16 +3,7 @@
 <head>
     <!--All Meta Tags Here-->
     <meta charset="UTF-8">
-    <meta name="keyword" content="nawab, nawab academy, academy, shahid, shahid iqbal, shahid iqbal jhawari, mahar shahid iqbal jhawari, course, 
-    courses, nawab courses, nawab academy courses, nawab academy course, 
-    shahid iqbal course, nawab html course, nawab css course, 
-    nawab javascript course, nawab html, nawab css, nawab java script, 
-    jhawarian, jhawarian academy, jhawarian courses, jhawarian web development, 
-    web development, web development course, web development nawab, nawab web development, 
-    nawab ethical hacking, nawab app development, app development course, android app development course, 
-    nawab academy app development, jhawarian no 1 academy, sargodha no 1 academy, pakistan no 1 academy, html, 
-    css, java script, php, my sql, python,ethical hacking, html course, css course, java script course, php course, 
-    my sql course, python course, ethical hacking course,">
+    <meta name="keyword" content="open ai nawab, nawab ai, nawab ai tool, ai text generater, ai text, chatgpt, chat gpt">
     <meta name="discription" content="NAWAB Web Development acdemy in Sargodha, Jhawarian, HTLM, CSS, JS, PHP, MYSQL, PYTHON online & classes courses">
     <meta name="author" content="MAHAR SHAHID IQBAL JHAWARI">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -132,7 +123,7 @@ if (isset($_POST['submit'])) {
         <div class="col-md-6">
             <form method="post">
             <div class="input-group">
-                    <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openaiinput">
+                    <input type="text" class="form-control" placeholder="give me prompt..." name="str" id="openaiinput" required>
                     <button class="btn btn-outline-secondary" type="submit" name="submit" id="openaibtn">
                     <i class="fas fa-search"></i>
                 </button>
