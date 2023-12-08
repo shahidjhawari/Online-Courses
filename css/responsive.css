@@ -88,4 +88,10 @@
         margin-top: 25px;
         margin-bottom: -20px;
     }
+    .html-intro-heding {
+        margin-top: 20px;
+    }
+    #html-intro-para {
+        font-size: 13px;
+    }
   }
