@@ -51,7 +51,15 @@
 
 <!--HTML All Tags Section Start-->
 <div class="container">
+    <input type="text" id="searchInput" placeholder="Search tags...">
     <div class="list-group all-html-tags">
+        <!-- all course add heading start -->
+        <div class="domain" style="display: none;">
+            <div class="titlepage text_align_center">
+            <h2>ALL COURSES <span class="blue_light">HERE</span></h2>
+            </div>
+        </div>
+  <!-- all course add heading start -->
     <code>
         <a href="html/a.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">a</span><span>></span> Defines a hyperlink</a>
         <a href="html/abbr.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">abbr</span><span>></span> Defines an abbreviation or an acronym</a>
@@ -177,6 +185,27 @@
     <!--Java Script Files Here Start-->
     <script src="js/script.js"></script>
     <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Function to filter the tags based on the search input
+            function filterTags() {
+                var searchInput = $('#searchInput').val().toLowerCase();
+    
+                $('.list-group-item').each(function () {
+                    var tagText = $(this).text().toLowerCase();
+                    if (tagText.includes(searchInput)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            }
+    
+            // Trigger the filterTags function on keyup event in the search input
+            $('#searchInput').on('keyup', filterTags);
+        });
+    </script>
+    
     <script>
         
     </script>
