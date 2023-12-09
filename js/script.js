@@ -7,7 +7,7 @@ window.onscroll = function(){
 }
 
 // Loader here
-window.onload = function(){
- document.getElementById("loader").style.display = "none";
- document.getElementById("mainContent").style.display = "block";
-}
+// window.onload = function(){
+//  document.getElementById("loader").style.display = "none";
+//  document.getElementById("mainContent").style.display = "block";
+// }
