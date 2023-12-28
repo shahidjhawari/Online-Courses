@@ -270,3 +270,8 @@ header {
 #loader img {
   width: 200px;
 }
+
+.coming_soon {
+  margin-top: 35vh;
+  margin-bottom: 35vh;
+}
