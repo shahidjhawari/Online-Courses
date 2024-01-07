@@ -3,15 +3,17 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 /* header css here */
 .container-css {
-    border-radius: 8px;
-    height: 80px;
+  border-radius: 8px;
+  height: 80px;
 }
+
 header {
   position: sticky;
   top: 0;
@@ -20,138 +22,144 @@ header {
 }
 
 .custom-div {
-    background-color: #009432;
-    width: 100%;
-    min-height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  background-color: #009432;
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .btn-css {
-    padding-right: 40px;
-    padding-left: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 /* HTML SECTION START */
 .about_section {
-    background-image: url("../img/htmlbg.jpg");
-    background-size: cover;
-    background-position: bottom;
-    color: #ffffff;
-    box-shadow: -1px -1px 3px 1px black, 1px 1px 3px 1px black;
-    transition: transform 0.1s;
-    transition-delay: 0s;
-  }
-  .about_section:hover {
-    transform: perspective(800px) translateZ(10px);
-  }
-  .about-css {
-    background-image: url("../img/cssbg.jpg");
-    background-size: cover;
-    background-position: bottom;
-    margin-top: 10px;
-  }
-  .about-javascript {
-    background-image: url("../img/jsbg.jpg");
-    background-size: cover;
-    background-position: bottom;
-    margin-top: 10px;
-  }
-  .about-php {
-    background-image: url("../img/phpbg.jpg");
-    background-size: cover;
-    background-position: bottom;
-    margin-top: 10px;
-  }
-  .about-sql {
-    background-image: url("../img/mysqlbg.jpg");
-    background-size: cover;
-    background-position: right;
-    margin-top: 10px;
-  }
-  
-  .about_section .heading_container {
-    margin-bottom: 45px;
-  }
-  
-  .about_section .row {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
-  .about_section .img-box img {
-    max-width: 100%;
-  }
-  
-  .about_section .detail-box h3 {
-    font-weight: bold;
-  }
-  
-  .about_section .detail-box p {
-    margin-top: 15px;
-  }
-  
-  .heading_container a {
-    display: inline-block;
-    padding: 10px 45px;
-    background-color: #f24106;
-    color: #ffffff;
-    border-radius: 0px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    border: none;
-    margin-top: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 2px;
-  }
-  
-  .about_section .detail-box a:hover {
-    background-color: #007fa4;
-  }
+  background-image: url("../img/htmlbg.webp");
+  background-size: cover;
+  background-position: bottom;
+  color: #ffffff;
+  box-shadow: -1px -1px 3px 1px black, 1px 1px 3px 1px black;
+  transition: transform 0.1s;
+  transition-delay: 0s;
+}
 
-  .heading_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-  }
-  
-  .heading_container h2 {
-    position: relative;
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-top: -60px;
-  }
-  
-  .heading_container h2 span {
-    color: #00bbf0;
-  }
-  
-  .heading_container p {
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-  
-  .heading_container.heading_center {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-  }
+.about_section:hover {
+  transform: perspective(800px) translateZ(10px);
+}
 
-  .layout_padding {
-    padding: 90px 0 10px 0;
-  }
-  /* HTML SECTION  END */
+.about-css {
+  background-image: url("../img/cssbg.webp");
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 10px;
+}
+
+.about-javascript {
+  background-image: url("../img/jsbg.webp");
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 10px;
+}
+
+.about-php {
+  background-image: url("../img/phpbg.webp");
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 10px;
+}
+
+.about-sql {
+  background-image: url("../img/mysqlbg.webp");
+  background-size: cover;
+  background-position: right;
+  margin-top: 10px;
+}
+
+.about_section .heading_container {
+  margin-bottom: 45px;
+}
+
+.about_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about_section .img-box img {
+  max-width: 100%;
+}
+
+.about_section .detail-box h3 {
+  font-weight: bold;
+}
+
+.about_section .detail-box p {
+  margin-top: 15px;
+}
+
+.heading_container a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #f24106;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.about_section .detail-box a:hover {
+  background-color: #007fa4;
+}
+
+.heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.heading_container h2 {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: -60px;
+}
+
+.heading_container h2 span {
+  color: #00bbf0;
+}
+
+.heading_container p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.heading_container.heading_center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.layout_padding {
+  padding: 90px 0 10px 0;
+}
+
+/* HTML SECTION  END */
 
 
 #progress {
@@ -174,13 +182,16 @@ header {
   display: inline-block;
   text-transform: uppercase;
 }
+
 .blue_light {
   color: #f4a700;
 }
+
 .domain {
   background: #ffffff;
   padding-top: 30px;
 }
+
 .searchbar {
   height: 50px;
   width: 70%;
@@ -202,6 +213,7 @@ header {
   line-height: 40px;
   font-size: 17px;
 }
+
 .search_icon {
   display: flex;
   justify-content: center;
@@ -210,25 +222,31 @@ header {
   font-size: 20px;
   text-decoration: none;
 }
+
 .text_align_center {
   text-align: center;
 }
+
 /* Course Headings Section End */
 
 /* HTML all tags css here */
 .html-tag {
   color: red;
 }
+
 .html-attr {
   color: yellow;
 }
+
 .tag-body {
   color: white;
 }
+
 .tag-position {
   margin-left: 50px;
   margin-bottom: 30px;
 }
+
 .all-html-tags code a:hover {
   z-index: 0;
 }
@@ -238,11 +256,14 @@ header {
   margin-top: 15px;
   margin-bottom: -30px;
 }
+
 .download-btn {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.inner-css, img {
+
+.inner-css,
+img {
   border-radius: 10px;
 }
 

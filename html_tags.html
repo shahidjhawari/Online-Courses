@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--All Meta Tags Here-->
     <meta charset="UTF-8">
-    <meta name="keyword" content="html tags, html all tags, html, html5 all tags, html5 tags, html nawab, nawab html, nawab html all tags, nawab html course, html course, html tags">
+    <meta name="keyword"
+        content="html tags, html all tags, html, html5 all tags, html5 tags, html nawab, nawab html, nawab html all tags, nawab html course, html course, html tags">
     <meta name="discription" content="#">
     <meta name="author" content="MAHAR SHAHID IQBAL JHAWARI">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,14 +19,18 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="img/logo_bg_remove.png">
 </head>
+
 <body>
     <!--Header Section Start-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
             <div class="container container-css">
-                <a href="index.html"><img src="img/logo_bg_remove.png" alt="NAWAB LOGO" title="NAWAB ACADEMY - Jhawarian, Sargodha, Punjab, Pakistan" width="50px"></a>
-                <a class="navbar-brand" href="index.html" title="NAWAB ACADEMY - Jhawarian, Sargodha, Punjab, Pakistan"><b>NAWAB ACADEMY</b></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a href="index.html"><img src="img/logo_bg_remove.png" alt="NAWAB LOGO"
+                        title="NAWAB ACADEMY - Jhawarian, Sargodha, Punjab, Pakistan" width="50px"></a>
+                <a class="navbar-brand" href="index.html"
+                    title="NAWAB ACADEMY - Jhawarian, Sargodha, Punjab, Pakistan"><b>NAWAB ACADEMY</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -47,19 +53,19 @@
         </nav>
         <div id="progress"></div>
     </header>
-<!--Header Section End-->
+    <!--Header Section End-->
 
-<!--HTML All Tags Section Start-->
-<div class="container">
-<!-- Courses Heading Start -->
-  <div class="form html-tags-search">
-    <div class="searchbar">
-      <input class="search_input" type="text" id="searchInput" placeholder="Search tags...">
-    </div>
-  </div>
-<!-- Courses Heading End -->
-    <div class="list-group all-html-tags">
-    <code>
+    <!--HTML All Tags Section Start-->
+    <div class="container">
+        <!-- Courses Heading Start -->
+        <div class="form html-tags-search">
+            <div class="searchbar">
+                <input class="search_input" type="text" id="searchInput" placeholder="Search tags...">
+            </div>
+        </div>
+        <!-- Courses Heading End -->
+        <div class="list-group all-html-tags">
+            <code>
         <a href="html/a.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">a</span><span>></span> Defines a hyperlink</a>
         <a href="html/abbr.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">abbr</span><span>></span> Defines an abbreviation or an acronym</a>
         <a href="html/address.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">address</span><span>></span> Defines contact information for the author/owner of a document</a>
@@ -169,17 +175,17 @@
         <a href="html/video.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">video</span><span>></span> Defines embedded video content</a>
         <a href="html/wbr.html" class="list-group-item list-group-item-action tag-css"><span><</span><span class="html-tag">wbr</span><span>></span> Defines a possible line-break</a> 
     </code>
+        </div>
     </div>
-</div>
-<!--HTML All Tags Section End-->
+    <!--HTML All Tags Section End-->
 
-<!--Footer Section Start-->
-  <footer class="bg-warning text-dark text-center py-3">
-      <div class="container">
-          &copy; <b>2023 NAWAB ACADEMY. All rights reserved.</b>
-      </div>
-  </footer>
-  <!--Footer Section End-->
+    <!--Footer Section Start-->
+    <footer class="bg-warning text-dark text-center py-3">
+        <div class="container">
+            &copy; <b>2023 NAWAB ACADEMY. All rights reserved.</b>
+        </div>
+    </footer>
+    <!--Footer Section End-->
 
     <!--Java Script Files Here Start-->
     <script src="js/script.js"></script>
@@ -189,7 +195,7 @@
             // Function to filter the tags based on the search input
             function filterTags() {
                 var searchInput = $('#searchInput').val().toLowerCase();
-    
+
                 $('.list-group-item').each(function () {
                     var tagText = $(this).text().toLowerCase();
                     if (tagText.includes(searchInput)) {
@@ -199,11 +205,11 @@
                     }
                 });
             }
-    
+
             // Trigger the filterTags function on keyup event in the search input
             $('#searchInput').on('keyup', filterTags);
         });
     </script>
 </body>
-</html>
 
+</html>
