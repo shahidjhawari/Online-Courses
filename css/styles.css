@@ -37,7 +37,7 @@ header {
 
 /* HTML SECTION START */
 .about_section {
-  background-image: url("../img/htmlbg.webp");
+  background: #2f3640;
   background-size: cover;
   background-position: bottom;
   color: #ffffff;
@@ -51,28 +51,28 @@ header {
 }
 
 .about-css {
-  background-image: url("../img/cssbg.webp");
+  background: #2f3640;
   background-size: cover;
   background-position: bottom;
   margin-top: 10px;
 }
 
 .about-javascript {
-  background-image: url("../img/jsbg.webp");
+  background: #2f3640;
   background-size: cover;
   background-position: bottom;
   margin-top: 10px;
 }
 
 .about-php {
-  background-image: url("../img/phpbg.webp");
+  background: #2f3640;
   background-size: cover;
   background-position: bottom;
   margin-top: 10px;
 }
 
 .about-sql {
-  background-image: url("../img/mysqlbg.webp");
+  background: #2f3640;
   background-size: cover;
   background-position: right;
   margin-top: 10px;
