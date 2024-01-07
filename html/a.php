@@ -1,5 +1,4 @@
 <?php require("../top.php"); ?>
-
 <!-- all course add heading start -->
 <div class="domain tag-heading">
     <div class="titlepage text_align_center">
