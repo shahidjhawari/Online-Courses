@@ -76,7 +76,7 @@
         <h2>HTML5</h2>
         <p>Let's understand the fundamental and basic concept of HTML</p>
         <p>We will teach you the basic and essentials of HTML in this course Click the button below to learn.</p>
-        <a href="html_crc.html">LEARN HTML</a>
+        <a href="html_crc.php">LEARN HTML</a>
       </div>
     </div>
   </section>
@@ -89,7 +89,7 @@
         <h2>CSS3</h2>
         <p>Let's understand the fundamental and basic concept of HTML</p>
         <p>We will teach you the basic and essentials of HTML in this course Click the button below to learn.</p>
-        <a href="coming_soon.html">LEARN CSS</a>
+        <a href="coming_soon.php">LEARN CSS</a>
       </div>
     </div>
   </section>
@@ -102,7 +102,7 @@
         <h2>JAVASCRIPT</h2>
         <p>Let's understand the fundamental and basic concept of HTML</p>
         <p>We will teach you the basic and essentials of HTML in this course Click the button below to learn.</p>
-        <a href="coming_soon.html">LEARN JAVASCRIPT</a>
+        <a href="coming_soon.php">LEARN JAVASCRIPT</a>
       </div>
     </div>
   </section>
@@ -115,7 +115,7 @@
         <h2>PHP</h2>
         <p>Let's understand the fundamental and basic concept of HTML</p>
         <p>We will teach you the basic and essentials of HTML in this course Click the button below to learn.</p>
-        <a href="coming_soon.html">LEARN PHP</a>
+        <a href="coming_soon.php">LEARN PHP</a>
       </div>
     </div>
   </section>
@@ -128,7 +128,7 @@
         <h2>MYSQL</h2>
         <p>Let's understand the fundamental and basic concept of HTML</p>
         <p>We will teach you the basic and essentials of HTML in this course Click the button below to learn.</p>
-        <a href="coming_soon.html">LEARN MYSQL</a>
+        <a href="coming_soon.php">LEARN MYSQL</a>
       </div>
     </div>
   </section>

@@ -20,7 +20,7 @@
             <div class="heading_container heading_center">
                 <h2>HTML ALL TAGS HERE</h2>
                 <p>Let's learn all HTML5 tags with exampleL</p>
-                <a href="html_tags.html">LEARN TAGS</a>
+                <a href="html_tags.php">LEARN TAGS</a>
             </div>
         </section>
     </div>
