@@ -12,3 +12,22 @@ window.onload = function(){
  document.getElementById("mainContent").style.display = "block";
 }
 
+//HTML TAGS SECTION CODE HERE
+$(document).ready(function () {
+    // Function to filter the tags based on the search input
+    function filterTags() {
+        var searchInput = $('#searchInput').val().toLowerCase();
+
+        $('.list-group-item').each(function () {
+            var tagText = $(this).text().toLowerCase();
+            if (tagText.includes(searchInput)) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
+    }
+
+    // Trigger the filterTags function on keyup event in the search input
+    $('#searchInput').on('keyup', filterTags);
+});

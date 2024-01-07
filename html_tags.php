@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!--All Meta Tags Here-->
-    <meta charset="UTF-8">
-    <meta name="keyword"
-        content="html tags, html all tags, html, html5 all tags, html5 tags, html nawab, nawab html, nawab html all tags, nawab html course, html course, html tags">
-    <meta name="discription" content="#">
-    <meta name="author" content="MAHAR SHAHID IQBAL JHAWARI">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAWAB ACADEMY</title>
-  <!--Font Awesome files Here-->
-  <link media="all" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!--Bootstrap files Here-->
-  <link media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script defer async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!--Own files Here-->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="icon" href="img/logo_bg_remove.png">
-</head>
-
+<?php require("top.php"); ?> 
 <body>
     <!--Header Section Start-->
     <header>
@@ -179,38 +157,4 @@
         </div>
     </div>
     <!--HTML All Tags Section End-->
-
-    <!--Footer Section Start-->
-    <footer class="bg-warning text-dark text-center py-3">
-        <div class="container">
-            &copy; <b>2023 NAWAB ACADEMY. All rights reserved.</b>
-        </div>
-    </footer>
-    <!--Footer Section End-->
-
-    <!--Java Script Files Here Start-->
-    <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            // Function to filter the tags based on the search input
-            function filterTags() {
-                var searchInput = $('#searchInput').val().toLowerCase();
-
-                $('.list-group-item').each(function () {
-                    var tagText = $(this).text().toLowerCase();
-                    if (tagText.includes(searchInput)) {
-                        $(this).show();
-                    } else {
-                        $(this).hide();
-                    }
-                });
-            }
-
-            // Trigger the filterTags function on keyup event in the search input
-            $('#searchInput').on('keyup', filterTags);
-        });
-    </script>
-</body>
-
-</html>
+<?php require("footer.php"); ?>  
